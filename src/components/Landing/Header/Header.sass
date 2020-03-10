@@ -1,0 +1,113 @@
+header.header
+  height: 1135px
+  background: url("../../../assets/img/header-bg.png") no-repeat
+  background-size: contain
+
+  .menu
+    h2.company
+      color: white
+
+    .link
+      font-style: normal
+      font-weight: bold
+      font-size: 16px
+      color: #FFFFFF
+      padding: 0 5px 5px 5px
+
+      &:not(:first-of-type)
+        margin-left: 63px
+
+      &:first-of-type
+        margin-left: 143px
+
+      &:last-of-type
+        margin-left: 135px
+
+      &.active, &:hover
+        cursor: pointer
+        text-decoration: none
+        border-bottom: 4px solid #FCC304
+        padding: 0 5px
+
+  .info
+    width: 50%
+    margin: 85px auto 0 auto
+
+    h1.title
+      font-size: 64px
+      font-weight: 900
+      color: white
+
+    h4.description
+      color: white
+      text-align: left
+      font-weight: normal
+      margin: 20px auto 0 auto
+
+    button.more
+      margin-top: 42px
+      width: 226px
+      height: 56px
+      background: #FFFFFF
+      border-radius: 64px
+      font-weight: bold
+      font-size: 16px
+      text-align: center
+      color: #253757
+      border: 1px solid white
+      outline: none
+      transition: all 0.4s linear
+
+      &:hover
+        cursor: pointer
+        border: 1px solid black
+
+  #carousel
+    width: 70%
+    margin: 80px auto 0 auto
+
+    .controls
+      position: absolute
+      top: 49%
+      left: -80px
+      width: 160px
+      height: 64px
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #FCC304
+      border-radius: 50px
+
+      a.carousel-control-next
+        right: 25px
+
+      a.carousel-control-prev
+        left: 25px
+
+    h4.title
+      position: absolute
+      bottom: 25%
+      left: 100px
+      color: #56CCF2
+      font-size: 13px
+      font-weight: 800
+
+    p.description
+      position: absolute
+      bottom: 13%
+      left: 100px
+      color: white
+      font-size: 20px
+      width: 265px
+
+  .nets
+    transform: rotate(90deg)
+    position: absolute
+    right: -260px
+    bottom: 290px
+
+    a
+      color: black
+      text-transform: uppercase
+      font-weight: 800
+      font-size: 13px
+
+      &:nth-of-type(2)
+        margin: 0 85px

@@ -1,0 +1,5 @@
+export const GET_USERS_LIST = '@get/USERS_LIST_REQUEST';
+export const GET_USERS_LIST_SUCCESS = '@get/USERS_LIST_SUCCESS';
+export const GET_USERS_LIST_ERROR = '@get/USERS_LIST_ERROR';
+
+export const GET_CURRENT_USER = '@get/CURRENT_USER_REQUEST';
